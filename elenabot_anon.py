@@ -1,3 +1,6 @@
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("Bot is starting...")
 from telegram import BotCommand, Update
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
 import logging
